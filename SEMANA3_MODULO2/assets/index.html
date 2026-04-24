@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LALY</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="./imgs/mariposa-de-ala-grande.ico" type="image/x-icon">
+    
+</head>
+<!-- Body con identificador para poder utilizar un solo archivo CSS-->
+<body id="presentacion">
+    <header>
+        <!--Configuración de la sección de navegación par añadir el logo y los botones de navegación -->
+        <button id="menuBtn" onclick="hidden_menu()">☰</button>
+        <nav class="navegacion">
+            
+            <section class="izquierda">
+                <img src="imgs/letra_si.png" alt="hweifwg4itf">
+            </section>
+            <section class="derecha">
+                <ul>
+                    <li class="Info"><a href="#Sobre_mi" >Sobre nosotros</a></li>
+                    <li class="Info"><a href = "#proyectos">Mis proyectos</a></li>
+                    <button id="abrirContacto">Contáctanos</button>
+                    <li  class="Info"><a href="Laly.html" target="_blank">Catálogo</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+    <!--Sección del main donde se enceuntran las tres secciones requeridas -->
+    <main>
+        <section id="Sobre_nosotros">
+            <img id="img" src="imgs/fondp.webp" alt="">
+
+            <div class="contenido">
+            <h2>Sobre nosotros</h2>
+            <p>En Laly creemos que cada detalle cuenta.
+             Nos apasiona crear y seleccionar piezas únicas que resalten la belleza y personalidad de cada persona, 
+             combinando tendencias actuales con estilos atemporales. Trabajamos con dedicación para ofrecer accesorios
+              de calidad, diseñados para acompañarte en cada momento, desde lo cotidiano hasta ocasiones especiales. 
+              Más que vender accesorios, buscamos inspirar confianza,
+               estilo y autenticidad en cada uno de nuestros clientes.</p>
+              
+               </div>
+        </section>
+        <section id="proyectos">
+<!--Sección de proyectos en grid-->
+            <div class="project">
+  <h2>Mis proyectos</h2>
+  
+<div class="parent">
+    <div class="div1"><a  href="#">Collares personalizados hechos a mano</a></div>
+    <div class="div2"><a  href="#">Pulseras con dijes únicos</a></div>
+    <div class="div3"><a href="#">Aretes elegantes para ocasiones especiales</a></div>
+    <div class="div4"><a  href="#">Colección verano 2026</a></div>
+</div>
+
+    
+ 
+  <!--boton para volver al inicio-->
+  </div>
+   <button class="boton_volver"  type="button"><a href="#">Vuelve Arriba</a></button>
+</section>
+   
+<section id="contacto">
+  
+    <span id="cerrarContacto" style="cursor:pointer; float:right;">✖</span>
+  <form id="formulario">
+    <h2>Contáctenos</h2>
+  
+  <p>¿Te interesa alguna pieza o quieres un diseño personalizado? Escríbenos.</p>
+    <label for="text" class="nombres_arriba">Nombres</label>
+    <input type="text" placeholder="Tu nombre" required><br><br>
+    <label for="email" class="nombres_arriba">Email</label>
+    <input type="email" placeholder="Tu correo" required><br><br>
+    <label for="text" class="nombres_arriba">Mensaje</label>
+    <input type="text" placeholder="Escribe tu mensaje" required><br><br>
+    <button  type="submit">Enviar</button>
+    
+  </form>
+  
+  </section>
+    </main>
+    <!--FOOTER -->
+    <footer id="footer">
+        <div class="footer-container">
+
+            <div class="footer-left">
+
+                <div class="social-icons">
+                    <a href="">X</a>
+                    <a href="">✉</a>
+                    <a href="">WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <p>
+                    © 2026 Laly, Todos los derechos de autor reservados.
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="../assets/JS/script.js"></script>
+</body>
+</html>
